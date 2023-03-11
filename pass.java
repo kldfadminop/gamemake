@@ -15,8 +15,11 @@ public class pass {
          * pass_book = seed(a, b, c, d);
          * }
          */
-        pass_book = seed(1000, 7, 51, 20);
-        System.out.println(pass_book);
+        for(int i=0;i<10;i++)
+        {
+            pass_book = seed(1001+11*i, 7+i, 51+i, 20);
+            System.out.println(pass_book);
+        }
     }
 
     // 自定义随机密码本
