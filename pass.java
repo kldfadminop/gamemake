@@ -3,8 +3,6 @@ import java.util.Scanner;
 public class pass {
 
     public static void main(String[] args) {
-        String pass_ming;
-        String pass_word;
         String pass_book;
         /*
          * try (Scanner scanner = new Scanner(System.in)) {
